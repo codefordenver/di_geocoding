@@ -1,6 +1,9 @@
 {% extends "admin/base_share.html" %}
+
+<!--
 {% load i18n admin_static bootstrapped_goodies_tags %}
 {% load custom_filter %}{% load custom_tag %}
+-->
 
 {% block extrastyle %}
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -146,7 +149,6 @@ p {
 }
 
 </style>
-</head>
 {% endblock %}
 {% block content %}
 <body>
@@ -174,18 +176,23 @@ p {
 						<h2 class="fRight">Login</h2>
 					</div>
 					<div class="col-md-12">
-						<form class="fRight">
-							<div class="form-group">
+					<form id="user_form" method="post" action="" class="fRight">{% csrf_token %}
+							<div class="form-group"> 
+							    <!-- include this stuff via widgets later https://docs.djangoproject.com/en/1.8/ref/forms/widgets/
 							    <input type="email" class="form-control loginInput" id="exampleInputEmail1" placeholder="Email">
+							    -->
+								<label for="id_old_password" class="required">{{login_form.username.label}}:</label> 
+							    {{login_form.username}}
 							</div>
 							<div class="form-group">						    
-							    <input type="password" class="form-control loginInput" id="exampleInputPassword1" placeholder="Password">
+								<label for="id_old_password" class="required">{{login_form.password.label}}:</label> 
+							    {{login_form.password}}
 							</div>
 							<div class="col-md-12 rButton">  
 								<button type="submit" class="btn btn-default loginButton fRight">log in</button>
 							</div>
-							<div class="col-md-12 rButton">
-								<button type="submit" class="btn btn-default signupButton fRight">sign up</button>
+							<div class="col-md-12 rButton"> 
+							<a href="/geocodingtool/register" class="btn loginButton fRight">sign up</a>
 							</div>
 						</form>
 					</div>

@@ -36,6 +36,7 @@ TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 INSTALLED_APPS = (
     'bootstrap3',
     'django_admin_bootstrapped',
+    
     'smart_selects',
     'django.contrib.admin',
     'django.contrib.auth',

@@ -71,6 +71,33 @@ def register(request):
         signup_form = UserCreationForm()
     return {'title':"Sign up",'signup_form':signup_form}
 
+#login page
+@render_to("registration/login.html")
+def login_or_register(request):
+    login_form = AuthenticationForm()
+    if request.method == 'POST':
+        if login_form.is_valid():
+            user = authenticate(username=login_form.cleaned_data["username"], password=login_form.cleaned_data["password2"])
+            login(request, user)
+            if "next" in request.GET:
+                app_name = request.GET["next"].replace(APP_SERVER_URL,"").partition("/")[2].partition("/")[0]
+                return HttpResponseRedirect(request.GET["next"])
+            else:
+                url = request.META["HTTP_REFERER"]
+                if url.partition("/?next=/")[1] == "":
+                    if APP_SERVER_URL == "":
+                        # a trick for localhost
+                        app_name = url.partition("http://")[2].replace(SERVER_URL,"").partition("/")[2].partition("/")[0]
+                    else:
+                        app_name = url.partition("http://")[2].replace(SERVER_URL,"").replace(APP_SERVER_URL,"").partition("/")[2].partition("/")[0]
+                else:
+                    app_name = url.partition("/?next=/")[2].partition("/")[0]
+                return HttpResponseRedirect('%s/%s/home/' % (APP_SERVER_URL,app_name))
+    else:
+        pass
+    return {'title':"Geocoding Rules!",'login_form':login_form}
+
+
 
 # User Profile
 @login_required

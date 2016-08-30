@@ -13,6 +13,7 @@ urlpatterns = patterns('geocodingapp.views',
 	url(r'^home/fun/$','home_fun'),
 
 	# Login,Logout,Register,User
+	url(r'^login/$','login_or_register'),
 	url(r'^logout/$',logout,{'template_name': 'registration/logged_out.html'}),
 	url(r'^register/$','register'),
 	url(r'^user/profile/$','user_profile'),

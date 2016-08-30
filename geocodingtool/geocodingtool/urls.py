@@ -13,5 +13,6 @@ urlpatterns = patterns('',
     url(r'^geocodingtool/',include('geocodingapp.urls')),
     
     # settings_local
-    url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.BASE_DIR+'/core/static/', 'show_indexes': True}),  
+    url(r'^static/(?P<path>.*)$', 'django.views.static.serve', 
+        {'document_root': settings.BASE_DIR+'/core/static/', 'show_indexes': True}),  
 )
