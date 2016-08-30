@@ -2,4 +2,3 @@
 *.pyc
 *.pyo
 settings_server.py
-settings_local.py
