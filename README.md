@@ -21,13 +21,13 @@ make sure python - pycopg2 is installed -
 
 3. (optional) cd into the repo and create a virtual environment and install the dependencies. 
 
-		(these commands are for bash, for windows checkout [virtualenv-win](https://github.com/davidmarble/virtualenvwrapper-win))
+(these commands are for bash, for windows checkout [virtualenv-win](https://github.com/davidmarble/virtualenvwrapper-win))
 
 		`pip install virtualenv`
 		`pip install virtualenvwrapper`
 		`mkvirtualenv -a [paste current path again] -r requirements.txt geocode`
 
-		activate the virtual environment via 
+activate the virtual environment via 
 		`workon geocode`
 
 4. to insure the right libraries are installed, run
