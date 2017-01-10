@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Field Mapping</title>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Raleway:300i,400,500,600,700' rel='stylesheet' type='text/css'>
+      <link type="text/css" rel="stylesheet" href="fieldMapping.css" />
+    </head>
+
+  <body>
+    <div class="container-fluid">
+<!-- HEADER AREA -->
+      <div class="row ">
+        <div class="col-md-12 firstRow">
+
+          <div class="col-md-4">
+            <img class="shiftLogo" src="imgCFD/Shift_Official_Logo.png">
+          </div>
+
+          <div class="col-md-8">
+            <div class="col-md-7">
+            <img class="CDL_logo" src="imgCFD/CDL_logo.png">
+            </div>
+
+            <div class="col-md-5">
+              <div class="loginName">
+                <h3>Hello,</h3>
+                <h2>Marco Polo</h2>
+              </div>
+
+    <!-- DROPDOWN MENU -->
+
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle glyphicon glyphicon-menu-hamburger burgerMenu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a class="glyphicon glyphicon-user" href="#">
+                  <p>User Profile</p></a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a class="glyphicon glyphicon-log-out" href="#">
+                  <p>Sign Out</p></a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+</div>
+
+<!-- BODY CONTENT -->
+
+      <div class="row">
+        <div class="col-md-12">
+
+    <!-- ACCORDIAN SECTION -->
+
+          <div class="col-md-4 raiseUp">
+            <div class="barWrap">
+
+        <!-- WELCOME BAR -->
+              <div class="col-md-12 noPadding">
+                <h3 class="welcomeBar">FIELD MAPPING
+                  <div class="helper">
+                    <a class="miniNav home">Home</a>
+                    <a class="miniNav quickGuide">Quick Guide</a>
+                </div>
+                </h3>
+              </div>
+
+                  <!-- MAPPING AREA -->
+
+              <div class="col-md-12 barBg noPadding">
+                <h4> Select column name <br>to match the field</h4>
+                  <form class="fRight">
+							          <div class="form-group" id="nameStyle" >
+								          <label class="aboutText">Address</label>
+							              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="required">
+							          </div>
+							          <div class="form-group">
+								          <label class="aboutText">City</label>
+								            <input type="text" class="form-control " id="exampleInputPassword1" placeholder="required">
+							          </div>
+
+							          <div class="col-md-12">
+								          <label class="tagsText">State</label>
+							              <input type="text" class="form-control " id="exampleInputTags1" placeholder="required">
+							          </div>
+
+                        <div class="col-md-12">
+								          <label class="zipText">Zip Code</label>
+							              <input type="text" class="form-control " id="exampleInputTags1" placeholder="required">
+							          </div>
+
+                        <div class="col-md-12">
+								          <label class="labelText">Label</label>
+							              <input type="text" class="form-control " id="exampleInputTags1" placeholder="required">
+							          </div>
+
+							          <div class="col-md-12 rButton">
+								          <button type="submit" class="btn btn-default continueButton">continue >> </button>
+							          </div>
+						          </form>
+                    </div>
+
+    <!-- CLOSING OF BARWRAP DIV FOR ACCORDIAN SECTION -->
+            </div>
+          </div>
+
+          <div class="col-md-8 bar">
+              <h4>TASK NAME</h4>
+              <h4>TABLE PREVIEW</h4>
+
+          </div>
+
+          <div col-md-8 >
+      			<div class="row">
+      				<div class="col-sm-6 displayBar">
+      				<table class="table table-striped table-bordered table-hover dataTable no-footer" id="dataTables-example" role="grid" aria-describedby="dataTables-example_info">
+      					<thead>
+      						<tr role="row" style="color:#00587C;">
+      							<th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Geocoding Results: activate to sort column ascending" style="width: 367px;">LABEL
+      							</th>
+      							<th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Description: activate to sort column ascending" style="width: 436px;">ADDRESS</th>
+      							<th class="sorting_desc" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-sort="descending" aria-label="Initiate Date: activate to sort column ascending" style="width: 250px;">CITY</th>
+      							<th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Geocoding Results: activate to sort column ascending" style="width: 367px;">STATE
+      							</th>
+      							<th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Geocoding Results: activate to sort column ascending" style="width: 367px;">ZIP CODE
+      							</th>
+
+      						</tr>
+      					</thead>
+      						<tbody>
+
+      							<tr role="row" class="odd">
+      								<td>
+      									<a href="/geocodingtool/admin/geocodingapp/task/5/">Galvanize</a>
+      								</td>
+      								<td class="sorting_1">1062 Delaware St   </td>
+      								<td>
+
+      											<a href="/geocodingtool/geocodingtool/geocoding/results?task=5">Denver</a>
+
+      								</td>
+      								<td>
+
+      											<a href="/geocodingtool/geocodingtool/geocoding/results?task=12">CO</a>
+
+      									</td>
+      									<td>
+
+      											<a href="/geocodingtool/geocodingtool/geocoding/results?task=12">80204</a>
+
+      									</td>
+      							</tr>
+      							<tr role="row" class="even">
+      								<td>
+      									<a href="/geocodingtool/admin/geocodingapp/task/5/">Galvanize</a>
+      								</td>
+      								<td class="sorting_1">1062 Delaware St   </td>
+      								<td>
+
+      											<a href="/geocodingtool/geocodingtool/geocoding/results?task=5">Denver</a>
+
+      								</td>
+      								<td>
+
+      											<a href="/geocodingtool/geocodingtool/geocoding/results?task=12">CO</a>
+
+      									</td>
+      									<td>
+
+      											<a href="/geocodingtool/geocodingtool/geocoding/results?task=12">80204</a>
+
+      									</td>
+      							</tr>
+      							<tr role="row" class="odd">
+      								<td>
+      									<a href="/geocodingtool/admin/geocodingapp/task/5/">Galvanize</a>
+      								</td>
+      								<td class="sorting_1">1062 Delaware St   </td>
+      								<td>
+
+      											<a href="/geocodingtool/geocodingtool/geocoding/results?task=5">Denver</a>
+
+      								</td>
+      								<td>
+
+      											<a href="/geocodingtool/geocodingtool/geocoding/results?task=12">CO</a>
+
+      									</td>
+      									<td>
+
+      											<a href="/geocodingtool/geocodingtool/geocoding/results?task=12">80204</a>
+
+      									</td>
+      							</tr>
+      							<tr role="row" class="even">
+      								<td>
+      									<a href="/geocodingtool/admin/geocodingapp/task/5/">Galvanize</a>
+      								</td>
+      								<td class="sorting_1">1062 Delaware St   </td>
+      								<td>
+
+      											<a href="/geocodingtool/geocodingtool/geocoding/results?task=5">Denver</a>
+
+      								</td>
+      								<td>
+
+      											<a href="/geocodingtool/geocodingtool/geocoding/results?task=12">CO</a>
+
+      									</td>
+      									<td>
+
+      											<a href="/geocodingtool/geocodingtool/geocoding/results?task=12">80204</a>
+
+      									</td>
+      							</tr>
+
+      						</tbody>
+      					</table>
+      				</div>
+      			</div>
+      		</div>
+
+          </div>
+
+        </div>
+
+
+
+
+
+
+      </div>
+
+    </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
+<script>
+  $( function() {
+    $( "#accordion" ).accordion({
+    	active: false,
+      collapsible: true
+    });
+  } );
+
+   $(".glyphicon-menu-up").hide();
+    $(".bar").click(function(){
+         $(this).find(".glyphicon-menu-down, .glyphicon-menu-up").toggle();
+    });
+</script>

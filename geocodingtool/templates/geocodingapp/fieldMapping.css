@@ -1,0 +1,251 @@
+* {
+  border-radius: 0 !important;
+}
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top, .container {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+ul
+{
+list-style-type: none;
+}
+.shiftLogo{
+
+	float: left;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.CDL_logo{
+
+  float: left;
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+/* LOGIN NAME */
+
+.loginName{
+  float: left;
+  margin-top: 35px;
+  text-align: right;
+}
+.loginName h3{
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 20px;
+  font-size: 1.8em;
+  letter-spacing: 0.5px;
+}
+.loginName h2{
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 1.5em;
+  letter-spacing: 0.5px;
+  margin-top: -8px;
+  text-transform: uppercase;
+}
+
+/* BURGER DROPDOWN */
+
+.dropdown {
+  display: inline-block;
+
+}
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-menu p{
+  display: inline;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+}
+.burgerMenu{
+	color:grey;
+	font-size:40px;
+	float:right;
+	margin-top: 50px;
+	border:0;
+	background:none !important;
+	outline: none !important;
+}
+
+.divider{
+	border-right: 1px solid white;
+	margin: 60px 0 0 0;
+	padding-right: 50px;
+}
+
+.firstRow{
+	height: 160px;
+  padding-bottom: 30px;
+}
+
+/* ACCORDIAN SECTION */
+
+.raiseUp{
+	margin-top:20px;
+  font-family: Raleway, sans-serif;
+}
+
+.barWrap{
+	width: 400px;
+}
+.noPadding {
+  padding-right: 0;
+}
+.noPadding h3 {
+  font-weight: 700;
+}
+
+.welcomeBar {
+  background-color: #00CFB4;
+  height: 50px;
+  width: 88%;
+  text-align: right;
+	padding:12px 10px;
+	float:right;
+	margin-bottom: 0;
+	color:white;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 1.5em;
+}
+
+.helper{
+  text-align: left;
+  color: white;
+  float: left;
+  margin-top: -15px;
+
+}
+.miniNav.home{
+	color:white;
+	font-style: italic;
+	font-size:12px;
+}
+.miniNav.quickGuide{
+	display: block;
+	padding: 5px 0;
+	color:white;
+	font-style: italic;
+	font-size:12px;
+}
+
+.bar{
+  background-color: #6AD1E3;
+  height: 50px;
+  width: 64%;
+  color: white;
+  padding-top: 12px;
+	padding-left: 20px;
+	float: right;
+	margin: 40px 0 0 0;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 1.5em;
+
+}
+
+.bar h4:nth-child(1) {
+  color: #00587C;
+  float: left;
+  margin-top: 0;
+}
+.bar h4:nth-child(2) {
+  color: white;
+  display: inline;
+  float:right;
+  margin-top: 0;
+}
+
+.displayBar{
+margin-left: 30px;
+
+}
+
+.barBg{
+	background-color: #e8e8e8;
+	width: 85%;
+	float: right;
+	height: auto !important;
+	text-align: right;
+  padding: 12px;
+}
+.barBg h4 {
+  color: #00587C;
+}
+/* MAPPING DROPDOWN */
+
+.aboutText {
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 1em;
+
+}
+
+.fRight div:nth-child(1){
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+#exampleInputEmail1 {
+  height: 34px;
+  width: 94%;
+  margin-left: 10px;
+}
+#exampleInputPassword1 {
+  height:34px;
+  width: 94%;
+  margin-left: 10px;
+}
+.tagsText {
+
+  font-weight: 500;
+	margin-right: -4px;
+  font-size: 1em;
+}
+#exampleInputTags1 {
+  height: 34px;
+  width: 103%;
+  margin-left:-4px;
+}
+
+.zipText {
+  font-weight: 500;
+	margin-right: -4px;
+  font-size: 1em;
+  padding-top: 5px;
+}
+
+.labelText {
+  font-weight: 500;
+	margin-right: -4px;
+  font-size: 1em;
+  padding-top: 5px;
+}
+
+/* BUTTONS AREA */
+
+.rButton {
+  margin-top: 20px;
+  padding-right: 10px;
+}
+.continueButton {
+  background-color: #FA4616;
+  color: white;
+  font-weight: 600;
+}
+.continueButton:hover{
+  background-color: #00587C;
+  color: white;
+}

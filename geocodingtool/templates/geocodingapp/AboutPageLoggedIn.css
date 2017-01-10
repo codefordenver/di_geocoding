@@ -1,0 +1,380 @@
+* {
+  border-radius: 0 !important;
+}
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top, .container {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+ul
+{
+list-style-type: none;
+}
+.shiftLogo{
+
+	float: left;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.CDL_logo{
+
+  float: left;
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+/* LOGIN NAME */
+
+.loginName{
+  float: left;
+  margin-top: 35px;
+  text-align: right;
+}
+.loginName h3{
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 20px;
+  font-size: 1.8em;
+  letter-spacing: 0.5px;
+}
+.loginName h2{
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 1.5em;
+  letter-spacing: 0.5px;
+  margin-top: -8px;
+  text-transform: uppercase;
+}
+
+/* BURGER DROPDOWN */
+
+.dropdown {
+  display: inline-block;
+
+}
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-menu p{
+  display: inline;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+}
+.burgerMenu{
+	color:grey;
+	font-size:40px;
+	float:right;
+	margin-top: 50px;
+	border:0;
+	background:none !important;
+	outline: none !important;
+}
+
+.divider{
+	border-right: 1px solid white;
+	margin: 60px 0 0 0;
+	padding-right: 50px;
+}
+
+.firstRow{
+	height: 160px;
+  padding-bottom: 30px;
+}
+
+/* ACCORDIAN SECTION */
+
+.raiseUp{
+	margin-top:20px;
+  font-family: Raleway, sans-serif;
+}
+
+.barWrap{
+	width: 400px;
+}
+.noPadding {
+  padding-right: 0;
+}
+.noPadding h3 {
+  font-weight: 700;
+}
+
+.welcomeBar {
+  background-color: #6AD1E3;
+  height: 50px;
+  width: 85%;
+  text-align: right;
+	padding:12px 10px;
+	float:right;
+	margin-bottom: 0;
+	color:#00587C;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 2em;
+}
+
+.helper{
+  text-align: left;
+  color: white;
+  float: left;
+  margin-top: -15px;
+
+}
+
+.miniNav.home{
+	color:white;
+	font-style: italic;
+	font-size:12px;
+}
+.miniNav.quickGuide{
+	display: block;
+	padding: 5px 0;
+	color:white;
+	font-style: italic;
+	font-size:12px;
+}
+
+.bar{
+  background-color: #00CFB4;
+  color: white;
+  height: 50px;
+	width: 85%;
+	text-align: right;
+	padding:15px 10px;
+	float: right;
+	margin-bottom: 0;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+
+}
+
+/* DASHBOARD DROPDOWN */
+
+.barBg{
+	background-color: #e8e8e8;
+	width: 85%;
+	float: right;
+	height: auto !important;
+	text-align: right;
+}
+
+.userName {
+  margin-right: 20px;
+  font-family: Raleway, sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  color:#00587C;
+}
+
+.dashBottom{
+	border-bottom: 1px solid white;
+	margin-left: 20px;
+  text-align: left;
+  padding: 5px 10px;
+  margin-left: 62px;
+  color:#00587C;
+}
+
+.userId{
+  margin-right:20px;
+  margin-top: 35px;
+  padding-bottom: 15px;
+  padding-top: 65px;
+}
+
+.previousTask {
+  color:##00587C;
+  display: inline;
+}
+.taskCounter {
+  color:#FA4616;
+	display: inline;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+.mailer{
+  margin-right: 20px;
+  padding: 15px 10px;
+  border-bottom: none;
+}
+
+.fRight {
+  float: right;
+}
+
+/* MAPPING DROPDOWN */
+
+.aboutText {
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 1em;
+
+}
+.fRight div:nth-child(1){
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+#exampleInputEmail1 {
+  height: 34px;
+  width: 94%;
+  margin-left: 10px;
+}
+#exampleInputPassword1 {
+  height:68px;
+  width: 94%;
+  margin-left: 10px;
+}
+.tagsText {
+  margin-bottom: 7px;
+  font-weight: 500;
+	margin-right: -4px;
+  font-size: 1em;
+}
+#exampleInputTags1 {
+  height: 34px;
+  width: 103%;
+  margin-left:-4px;
+}
+
+/* BUTTONS AREA */
+
+.rButton {
+  margin-top: 10px;
+  padding-right: 0px;
+}
+
+.uploadButton{
+	border-radius: 500px !important;
+  margin-left: 225px;
+  margin-bottom: 10px;
+  height: 25px;
+  width: 78px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.learnmoreButton {
+  background-color: #FA4616;
+  width: 50%;
+  font-weight: 600;
+  font-size: 1.3em;
+  color: white;
+  letter-spacing: 0.5px;
+}
+.learnmoreButton:hover {
+  background-color: #00587C;
+  color: white;
+}
+
+/* USAGE BALANCE SECTION */
+
+#usageBalance {
+  padding: 20px;
+}
+dl{
+padding: 5px;
+}
+dt{
+	float: left;
+	padding-left: 15px;
+	width: 50%;
+	clear: left;
+	color:#63666A;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+dd{
+	float: left;
+	width: 50%;
+	padding-left: 15px;
+	text-align: left;
+	font-weight: 200;
+	color:#63666A;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+#quickQuestion {
+  margin-right: 15px;
+  color:#63666A;
+}
+#quickQuestion h4{
+  font-weight: 600;
+  color:#00587C;
+}
+
+/* ABOUT SECTION
+
+  ABOUT SECION 1
+*/
+
+.boxSection1 {
+  background-color: #6AD1E3;
+	width: 90%;
+	height: auto;
+	float: left;
+	color:white;
+	padding:15px;
+	text-align: left;
+	margin-top:40px;
+  margin-left: 50px;
+
+  font-family: Raleway, sans-serif;
+}
+
+.boxSection1 h4{
+  margin-right: 10px;
+  margin-left: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+
+}
+.boxAboutText {
+	margin-right: 12px;
+	margin-left: 12px;
+	font-size: 1em;
+	color:white;
+	font-weight: 400;
+	text-align: left;
+}
+
+.boxSection2 {
+  background-color: #6AD1E3;
+	width: 100%;
+	height: 600px;
+	float: left;
+	color:white;
+	padding:15px;
+	text-align: left;
+	margin-top:40px;
+  font-family: Raleway, sans-serif;
+}
+
+.boxSection2 h4{
+  margin-right: 10px;
+  margin-left: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+}
+
+.boxCodeForDenver {
+  margin-right: 12px;
+	margin-left: 12px;
+	font-size: 1em;
+	color:white;
+	font-weight: 400;
+	text-align: left;
+}

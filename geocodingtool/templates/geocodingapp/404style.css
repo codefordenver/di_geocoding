@@ -1,0 +1,77 @@
+* {
+  border-radius: 0 !important;
+}
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top, .container {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+ul
+{
+list-style-type: none;
+}
+.OF_Logo{
+
+	float: left;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.CDL_logo{
+
+  float: left;
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.firstRow{
+
+	height: 160px;
+  padding-bottom: 30px;
+}
+
+.errorArea{
+  background-color: #E8E8E8;
+  height: 600px;
+  margin-top: 40px;
+}
+.sadIcon {
+  float: left;
+  margin-top: 30px;
+  margin-left: 80px;
+
+}
+.direction{
+  margin-top: 60px;
+  text-align: left;
+}
+.direction h2{
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  color:#00587C;
+  font-size: 4.5em;
+  letter-spacing: 2.5px;
+}
+.direction h4{
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  color:#00587C;
+  font-size: 1.7em;
+  max-width: 350px;
+
+}
+.direction p{
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  color:#00587C;
+  font-size: 1.3em;
+}
+.direction ul{
+  list-style: none;
+  padding: 0px;
+  color:#F26A36;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 1.3em;
+}

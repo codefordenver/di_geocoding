@@ -1,0 +1,181 @@
+* {
+  border-radius: 0 !important;
+}
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top, .container {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+
+    .shiftLogo{
+
+    	float: left;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+
+    .CDL_logo{
+
+      float: left;
+      width: 150px;
+      margin-top: 30px;
+      margin-left: 15px;
+    }
+    .loginSquare{
+    	height: 300px;
+    	width: 300px ;
+    	background-color:#e8e8e8;
+    	margin:150px 45px 150px 100px;
+    	float: left;
+    	padding-right: 10px;
+    }
+    .loginButton{
+    	background-color: #FA4616;
+    	color:white;
+    	width: 100px;
+    	margin:5px	0;
+    	border: none;
+    }
+    .signupButton{
+    	background-color: #6AD1E3;
+    	color:white;
+    	display: block;
+    	width: 100px;
+    	margin:5px	0;
+    	border: none;
+    }
+    .signupButton2{
+    	background-color: #6AD1E3;
+    	color:white;
+    	display: block;
+    	width: 100px;
+    	border: none;
+    	margin: 45px -45px -45px 0
+    }
+    .signUpBar {
+    	background-color: magenta;
+    	height: 50px;
+    	width: 100%;
+    	text-align: right;
+    	padding:12px 10px;
+    	float:right;
+    	margin-bottom: 0;
+    	color:#00587C;
+    }
+
+    .helloBack{
+	background-color: #6AD1E3;
+	height: 400px;
+	padding-left: 20px;
+	margin:100px 0 0 0;
+	top:50%;
+}
+
+.learnmoreButton{
+	background-color: #00587C;
+	color:white;
+	border:none;
+}
+.fRight{
+	float: right;
+}
+.rButton{
+	padding-right: 0;
+}
+.loginInput{
+	width: 150px;
+	float: right;
+	margin:5px	0;
+
+}
+.divider{
+	border-right: 1px solid white;
+	margin: 60px 0 0 0;
+	padding-right: 50px;
+}
+
+.thinText{
+	font-size: 40px;
+	font-weight:100;
+	color:white;
+}
+.locationText{
+	font-size: 20px;
+	font-weight:bold;
+	color:white;
+}
+.tinyText{
+	font-size: 12px;
+	color:#00587C;
+}
+.locationPosition{
+	margin: 120px 0 50px 0px;
+}
+.loginPosition{
+	margin-top:20px;
+}
+.glyphicon-map-marker{
+	font-size: 75px;
+	color:#9bd9e3;
+	padding: 50% 0;
+}
+
+.animate {
+  width: 120%;
+}
+
+@media (min-width: 1200px){
+	.container {
+    width: 100%;
+    margin:0;
+	}
+}
+
+fieldset.signUp{
+	padding:45px;
+	background-color: #e8e8e8;
+	width:400px;
+	 box-shadow: 0px 8px 10px gray,
+        -10px 8px 15px gray, 10px 8px 15px gray;
+}
+label.signUp{
+	margin-top: 14px;
+	color:#00587C;
+	font-weight: 500px;
+
+}
+label.signUpName{
+	color:#00587C;
+	font-weight: 500px;
+	font-size: 14px;
+}
+input.signUp{
+	width: 100%;
+	height: 34px;
+	font-weight: 500px;
+	font-size: 14px;
+
+}
+div.signUp.ui-widget-content{
+	width: 400px;
+
+}
+.ui-dialog-titlebar{
+	background-color:#00587C;
+	height: 50px;
+	width: 400px;
+	text-align: center;
+	padding-top: 7px;
+	 box-shadow: 0px 8px 15px gray,
+        -10px 8px 15px gray, 10px 8px 15px gray;
+}
+.ui-dialog-title{
+	font-size: 24px;
+	color:white;
+	padding-top:7px;
+}
+button.ui-dialog-titlebar-close{
+	float: right;
+	color:white;
+	display: none;
+}
