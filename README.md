@@ -15,20 +15,25 @@ The project is built in Python using the [Django](https://www.djangoproject.com/
 
 1. git clone this repo
 
-2. install [postgres](https://www.postgresql.org/download/) and create a database for this project. 
+2. install [postgres](https://www.postgresql.org/download/) and create a database (named `geocode`) for this project. 
 make sure python - pycopg2 is installed - 
-`sudo apt-get install python-psycopg2`
+`pip install psycopg2`
 
 3. (optional) cd into the repo and create a virtual environment and install the dependencies. 
 
 (these commands are for bash, for windows checkout [virtualenv-win](https://github.com/davidmarble/virtualenvwrapper-win))
 
-		`pip install virtualenv`
-		`pip install virtualenvwrapper`
-		`mkvirtualenv -a [paste current path again] -r requirements.txt geocode`
+```sh
+pip install virtualenv
+pip install virtualenvwrapper
+```
+You'll need to `source /usr/local/bin/virtualenvwrapper.sh` or wherever it is installed - read more on setup [here](http://virtualenvwrapper.readthedocs.io/en/latest/install.html). Then you can run the following command to install the dependencies:
+```sh
+mkvirtualenv -a [paste current path again] -r requirements.txt geocode
+```
 
 activate the virtual environment via 
-		`workon geocode`
+`workon geocode`
 
 4. to insure the right libraries are installed, run
 `pip install -r requirements.txt`
